@@ -1,0 +1,1385 @@
+-- Instances:
+
+local Autobypass = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local LoadingBar = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local LocalizationModules = Instance.new("Folder")
+local OPTIONALCANBEDELETED = Instance.new("Folder")
+local ManuelLocals = Instance.new("Folder")
+local Main1 = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local CLose = Instance.new("ImageButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel_3 = Instance.new("TextLabel")
+local OPen = Instance.new("ImageButton")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Menu = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Commands = Instance.new("ScrollingFrame")
+local ExecuteCommand = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local input = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ExecuteCommand_2 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local input_2 = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local ExecuteCommand_3 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local AccountDeleter = Instance.new("ScrollingFrame")
+local ExecuteCommand_4 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local input_3 = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+
+--Properties:
+
+Autobypass.Name = "Autobypass"
+Autobypass.Parent = game.CoreGui
+Autobypass.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Autobypass
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.349131107, 0, 0.364227653, 0)
+Frame.Size = UDim2.new(0, 381, 0, 167)
+Frame.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0104986876, 0, 0.353293419, 0)
+TextLabel.Size = UDim2.new(0, 372, 0, 20)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Automatic Bypass"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0131233595, 0, 0.473053902, 0)
+TextLabel_2.Size = UDim2.new(0, 372, 0, 20)
+TextLabel_2.Font = Enum.Font.SourceSansItalic
+TextLabel_2.Text = "Available bypasses are running."
+TextLabel_2.TextColor3 = Color3.fromRGB(40, 40, 40)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+LoadingBar.Name = "LoadingBar"
+LoadingBar.Parent = Frame
+LoadingBar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+LoadingBar.Position = UDim2.new(0.133907929, 0, 0.621712685, 0)
+LoadingBar.Size = UDim2.new(0, 0, 0, 4)
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = LoadingBar
+
+LocalizationModules.Name = "LocalizationModules"
+LocalizationModules.Parent = game.Workspace.Autobypass.LocalizationScript
+
+OPTIONALCANBEDELETED.Name = "[OPTIONAL][CAN BE DELETED]"
+OPTIONALCANBEDELETED.Parent = LocalizationModules
+
+ManuelLocals.Name = "ManuelLocals"
+ManuelLocals.Parent = game.Workspace.Autobypass.LocalizationScript
+
+Main1.Name = "Main1"
+Main1.Parent = Autobypass
+Main1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main1.BorderSizePixel = 0
+Main1.Position = UDim2.new(0.262243271, 0, 0.263414621, 0)
+Main1.Size = UDim2.new(0, 602, 0, 291)
+Main1.Visible = false
+
+Frame_2.Parent = Main1
+Frame_2.BackgroundColor3 = Color3.fromRGB(227, 227, 227)
+Frame_2.BorderSizePixel = 0
+Frame_2.Size = UDim2.new(0, 602, 0, 33)
+
+CLose.Name = "CLose"
+CLose.Parent = Frame_2
+CLose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CLose.BackgroundTransparency = 1.000
+CLose.Position = UDim2.new(0.948504984, 0, 0.172133714, 0)
+CLose.Size = UDim2.new(0, 21, 0, 20)
+CLose.Visible = false
+CLose.Image = "http://www.roblox.com/asset/?id=9227415343"
+CLose.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+UIAspectRatioConstraint.Parent = CLose
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.307840854, 0, 0.230206907, 0)
+TextLabel_3.Size = UDim2.new(0, 229, 0, 17)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Kuma Admin"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+OPen.Name = "OPen"
+OPen.Parent = Frame_2
+OPen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OPen.BackgroundTransparency = 1.000
+OPen.Position = UDim2.new(0.948504984, 0, 0.172133714, 0)
+OPen.Size = UDim2.new(0, 21, 0, 20)
+OPen.Image = "http://www.roblox.com/asset/?id=9227415343"
+OPen.ImageColor3 = Color3.fromRGB(0, 0, 0)
+
+UIAspectRatioConstraint_2.Parent = OPen
+
+Menu.Name = "Menu"
+Menu.Parent = Main1
+Menu.BackgroundColor3 = Color3.fromRGB(227, 227, 227)
+Menu.BorderSizePixel = 0
+Menu.Position = UDim2.new(0.833887041, 0, 0.113402061, 0)
+Menu.Size = UDim2.new(0, 100, 0, 258)
+Menu.Visible = false
+
+ImageLabel.Parent = Menu
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.219999999, 0, 0.0542635769, 0)
+ImageLabel.Size = UDim2.new(0, 58, 0, 55)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UIAspectRatioConstraint_3.Parent = ImageLabel
+
+UICorner_3.CornerRadius = UDim.new(1, 0)
+UICorner_3.Parent = ImageLabel
+
+TextLabel_4.Parent = ImageLabel
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.346704096, 0, 1.21202493, 0)
+TextLabel_4.Size = UDim2.new(0, 93, 0, 10)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "Loading"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = ImageLabel
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-0.346704096, 0, 1.39384317, 0)
+TextLabel_5.Size = UDim2.new(0, 93, 0, 12)
+TextLabel_5.Font = Enum.Font.SourceSansItalic
+TextLabel_5.Text = "Loading"
+TextLabel_5.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextButton.Parent = Menu
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0665991306, 0, 0.412966818, 0)
+TextButton.Size = UDim2.new(0, 84, 0, 12)
+TextButton.Font = Enum.Font.GothamSemibold
+TextButton.Text = "Commands"
+TextButton.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_4.Parent = TextButton
+
+TextButton_2.Parent = Menu
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0665991306, 0, 0.490486205, 0)
+TextButton_2.Size = UDim2.new(0, 84, 0, 12)
+TextButton_2.Font = Enum.Font.GothamSemibold
+TextButton_2.Text = "Blocker"
+TextButton_2.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_5.Parent = TextButton_2
+
+Commands.Name = "Commands"
+Commands.Parent = Main1
+Commands.Active = true
+Commands.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Commands.BorderSizePixel = 0
+Commands.Position = UDim2.new(0.0132890362, 0, 0.15463917, 0)
+Commands.Size = UDim2.new(0, 583, 0, 238)
+
+ExecuteCommand.Name = "ExecuteCommand"
+ExecuteCommand.Parent = Commands
+ExecuteCommand.BackgroundColor3 = Color3.fromRGB(227, 227, 227)
+ExecuteCommand.BackgroundTransparency = 0.150
+ExecuteCommand.BorderColor3 = Color3.fromRGB(179, 179, 179)
+ExecuteCommand.Position = UDim2.new(0.0325900503, 0, 0.121648729, 0)
+ExecuteCommand.Size = UDim2.new(0, 519, 0, 33)
+
+TextLabel_6.Parent = ExecuteCommand
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.00478552096, 0, 0.230207041, 0)
+TextLabel_6.Size = UDim2.new(0, 70, 0, 17)
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "Jump Height:"
+TextLabel_6.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+input.Name = "input"
+input.Parent = ExecuteCommand
+input.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+input.Position = UDim2.new(0.13953495, 0, 0.24242425, 0)
+input.Size = UDim2.new(0, 314, 0, 17)
+input.Font = Enum.Font.SourceSansBold
+input.Text = "ENTER VALUE"
+input.TextColor3 = Color3.fromRGB(79, 79, 79)
+input.TextScaled = true
+input.TextSize = 14.000
+input.TextWrapped = true
+
+UICorner_6.Parent = input
+
+TextButton_3.Parent = ExecuteCommand
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.766599536, 0, 0.24242425, 0)
+TextButton_3.Size = UDim2.new(0, 116, 0, 17)
+TextButton_3.Font = Enum.Font.GothamSemibold
+TextButton_3.Text = "Execute"
+TextButton_3.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_7.Parent = TextButton_3
+
+ExecuteCommand_2.Name = "ExecuteCommand"
+ExecuteCommand_2.Parent = Commands
+ExecuteCommand_2.BackgroundColor3 = Color3.fromRGB(227, 227, 227)
+ExecuteCommand_2.BackgroundTransparency = 0.150
+ExecuteCommand_2.BorderColor3 = Color3.fromRGB(179, 179, 179)
+ExecuteCommand_2.Position = UDim2.new(0.0321569443, 0, 0.0662594959, 0)
+ExecuteCommand_2.Size = UDim2.new(0, 519, 0, 33)
+
+TextLabel_7.Parent = ExecuteCommand_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0219281204, 0, 0.230207041, 0)
+TextLabel_7.Size = UDim2.new(0, 70, 0, 17)
+TextLabel_7.Font = Enum.Font.GothamSemibold
+TextLabel_7.Text = "Speed:"
+TextLabel_7.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+input_2.Name = "input"
+input_2.Parent = ExecuteCommand_2
+input_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+input_2.Position = UDim2.new(0.13953495, 0, 0.24242425, 0)
+input_2.Size = UDim2.new(0, 314, 0, 17)
+input_2.Font = Enum.Font.SourceSansBold
+input_2.Text = "ENTER VALUE"
+input_2.TextColor3 = Color3.fromRGB(79, 79, 79)
+input_2.TextScaled = true
+input_2.TextSize = 14.000
+input_2.TextWrapped = true
+
+UICorner_8.Parent = input_2
+
+TextButton_4.Parent = ExecuteCommand_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.766712189, 0, 0.24242425, 0)
+TextButton_4.Size = UDim2.new(0, 116, 0, 17)
+TextButton_4.Font = Enum.Font.GothamSemibold
+TextButton_4.Text = "Execute"
+TextButton_4.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_9.Parent = TextButton_4
+
+TextLabel_8.Parent = Commands
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0316830426, 0, 0.0257395506, 0)
+TextLabel_8.Size = UDim2.new(0, 229, 0, 17)
+TextLabel_8.Font = Enum.Font.GothamSemibold
+TextLabel_8.Text = "Value Commands"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_9.Parent = Commands
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0368288383, 0, 0.188969791, 0)
+TextLabel_9.Size = UDim2.new(0, 229, 0, 17)
+TextLabel_9.Font = Enum.Font.GothamSemibold
+TextLabel_9.Text = "Normal Commands"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+ExecuteCommand_3.Name = "ExecuteCommand"
+ExecuteCommand_3.Parent = Commands
+ExecuteCommand_3.BackgroundColor3 = Color3.fromRGB(227, 227, 227)
+ExecuteCommand_3.BackgroundTransparency = 0.150
+ExecuteCommand_3.BorderColor3 = Color3.fromRGB(179, 179, 179)
+ExecuteCommand_3.Position = UDim2.new(0.0325900503, 0, 0.229896158, 0)
+ExecuteCommand_3.Size = UDim2.new(0, 519, 0, 33)
+
+TextLabel_10.Parent = ExecuteCommand_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0221265368, 0, 0.230207041, 0)
+TextLabel_10.Size = UDim2.new(0, 156, 0, 17)
+TextLabel_10.Font = Enum.Font.GothamSemibold
+TextLabel_10.Text = "Sit:"
+TextLabel_10.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_5.Parent = ExecuteCommand_3
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.0845186412, 0, 0.24242425, 0)
+TextButton_5.Size = UDim2.new(0, 470, 0, 17)
+TextButton_5.Font = Enum.Font.GothamSemibold
+TextButton_5.Text = "Execute"
+TextButton_5.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_10.Parent = TextButton_5
+
+AccountDeleter.Name = "AccountDeleter"
+AccountDeleter.Parent = Main1
+AccountDeleter.Active = true
+AccountDeleter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AccountDeleter.BorderSizePixel = 0
+AccountDeleter.Position = UDim2.new(0.0132890362, 0, 0.15463917, 0)
+AccountDeleter.Size = UDim2.new(0, 583, 0, 238)
+AccountDeleter.Visible = false
+
+ExecuteCommand_4.Name = "ExecuteCommand"
+ExecuteCommand_4.Parent = AccountDeleter
+ExecuteCommand_4.BackgroundColor3 = Color3.fromRGB(227, 227, 227)
+ExecuteCommand_4.BackgroundTransparency = 0.150
+ExecuteCommand_4.BorderColor3 = Color3.fromRGB(179, 179, 179)
+ExecuteCommand_4.Position = UDim2.new(0.0321569443, 0, 0.0662594959, 0)
+ExecuteCommand_4.Size = UDim2.new(0, 519, 0, 33)
+
+TextLabel_11.Parent = ExecuteCommand_4
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0219281204, 0, 0.230207041, 0)
+TextLabel_11.Size = UDim2.new(0, 70, 0, 17)
+TextLabel_11.Font = Enum.Font.GothamSemibold
+TextLabel_11.Text = "Block:"
+TextLabel_11.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+input_3.Name = "input"
+input_3.Parent = ExecuteCommand_4
+input_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+input_3.Position = UDim2.new(0.13953495, 0, 0.24242425, 0)
+input_3.Size = UDim2.new(0, 314, 0, 17)
+input_3.Font = Enum.Font.SourceSansBold
+input_3.Text = "ENTER ANY USERNAME!"
+input_3.TextColor3 = Color3.fromRGB(79, 79, 79)
+input_3.TextScaled = true
+input_3.TextSize = 14.000
+input_3.TextWrapped = true
+
+UICorner_11.Parent = input_3
+
+TextButton_6.Parent = ExecuteCommand_4
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.766712189, 0, 0.24242425, 0)
+TextButton_6.Size = UDim2.new(0, 116, 0, 17)
+TextButton_6.Font = Enum.Font.GothamSemibold
+TextButton_6.Text = "Block"
+TextButton_6.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UICorner_12.Parent = TextButton_6
+
+TextLabel_12.Parent = AccountDeleter
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.0316830575, 0, 0.0234240517, 0)
+TextLabel_12.Size = UDim2.new(0, 114, 0, 17)
+TextLabel_12.Font = Enum.Font.GothamSemibold
+TextLabel_12.Text = "Block Players"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_13.Parent = AccountDeleter
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.227223307, 0, 0.0280155782, 0)
+TextLabel_13.Size = UDim2.new(0, 229, 0, 11)
+TextLabel_13.Font = Enum.Font.GothamSemibold
+TextLabel_13.Text = "(make sure to use real name!)"
+TextLabel_13.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_14.Parent = AccountDeleter
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.0321569443, 0, 0.134627447, 0)
+TextLabel_14.Size = UDim2.new(0, 520, 0, 26)
+TextLabel_14.Font = Enum.Font.GothamSemibold
+TextLabel_14.Text = "Make sure to get the real username of the target, P.S only you can see him gone, for the other players the target it visible, you cannot unblock him unless you rejoin!"
+TextLabel_14.TextColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- OPTIONALCANBEDELETED.LocalizationBackupModule
+	local script = Instance.new('ModuleScript', OPTIONALCANBEDELETED)
+	script.Name = "LocalizationBackupModule"
+	local function module_script()
+		local module = {}
+		
+		local MainBackUp = script.BackUp
+		local LocalizationBackUpModule = script
+		
+		return module
+		
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts:
+
+local function ROYR_fake_script() -- TextLabel_2.TCH 
+	local script = Instance.new('LocalScript', TextLabel_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(10)
+	script.Parent.Text ="Services bypassed!"
+	wait(1.02)
+	script.Parent.Text ="ChatSettings bypassed!"
+	wait(2)
+	script.Parent.Text ="HttpsService bypassed!"
+	wait(2)
+	script.Parent.Text ="StarterPlayer infected!"
+	wait(2)
+	script.Parent.Text ="PlayerSettings infected!"
+	wait(3)
+	script.Parent.Parent:TweenPosition(UDim2.new(0.349, 0,-1.0, 0),"Out","Quad")
+	wait(7)
+	script.Parent.Parent.Visible = false
+end
+coroutine.wrap(ROYR_fake_script)()
+local function MLRXN_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Visible = false
+	wait(8)
+	script.Parent.Visible = true
+end
+coroutine.wrap(MLRXN_fake_script)()
+local function KTXTVM_fake_script() -- LoadingBar.LoadingScript 
+	local script = Instance.new('LocalScript', LoadingBar)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(10)
+	script.Parent:TweenSize(UDim2.new(0, 40,0, 4),"Out","Quad")
+	wait(1.02)
+	script.Parent:TweenSize(UDim2.new(0, 112,0, 4),"Out","Quad")
+	wait(2)
+	script.Parent:TweenSize(UDim2.new(0, 189,0, 4),"Out","Quad")
+	wait(2)
+	script.Parent:TweenSize(UDim2.new(0, 240,0, 4),"Out","Quad")
+	wait(2)
+	script.Parent:TweenSize(UDim2.new(0, 278,0, 4),"Out","Quad")
+end
+coroutine.wrap(KTXTVM_fake_script)()
+local function OPVNUUV_fake_script() -- LoadingBar.SizeOP 
+	local script = Instance.new('LocalScript', LoadingBar)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Size = UDim2.new(0, 0,0, 0)
+end
+coroutine.wrap(OPVNUUV_fake_script)()
+local function XDMDSKU_fake_script() -- Autobypass.FadeC 
+	local script = Instance.new('LocalScript', Autobypass)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(24.05)
+	game.Workspace.CurrentCamera.FieldOfView = 51
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 52
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 53
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 54
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 55
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 56
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 57
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 58
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 59
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 60
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 61
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 62
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 63
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 64
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 65
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 66
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 67
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 68
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 69
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 70
+end
+coroutine.wrap(XDMDSKU_fake_script)()
+local function MTWCKPL_fake_script() -- Autobypass.FadeB 
+	local script = Instance.new('LocalScript', Autobypass)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(24.05)
+	game.Lighting.BypassBlur.Size = 29
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 28
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 27
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 26
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 25
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 24
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 23
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 22
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 21
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 20
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 19
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 18
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 17
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 16
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 15
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 14
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 13
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 12
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 11
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 10
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 9
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 8
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 7
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 6
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 5
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 4
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 3
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 2
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 1
+	wait(.01)
+	game.Lighting.BypassBlur.Size = 0
+	wait(.01)
+	game.Lighting.BypassBlur:Destroy()
+end
+coroutine.wrap(MTWCKPL_fake_script)()
+local function BFTRDMO_fake_script() -- Autobypass.FieldOfView 
+	local script = Instance.new('LocalScript', Autobypass)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(8)
+	game.Workspace.CurrentCamera.FieldOfView = 69
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 68
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 67
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 66
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 65
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 64
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 63
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 62
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 61
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 60
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 59
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 58
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 57
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 56
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 55
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 54
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 53
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 52
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 51
+	wait(.01)
+	game.Workspace.CurrentCamera.FieldOfView = 50
+	
+end
+coroutine.wrap(BFTRDMO_fake_script)()
+local function IBGBCO_fake_script() -- Autobypass.LocalizationScript 
+	local script = Instance.new('LocalScript', Autobypass)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	if game.Players.LocalPlayer then
+		
+		wait(8)
+		
+		print("{RT}→ Finished")
+		
+		-- Localizations:
+		
+		local LocalizationScript = script
+		local LocalizationModules = script.LocalizationModules
+		local ReadMe = script.ReadMe                                          -- [C] = Clear [H] = Help Full [CH] = Can be Harmed [CA] = ChangeAble
+		                                                                            -- Quick View: ↓↓↓↓↓↓↓↓
+		
+		local T = script.LocalizationModules["T/Game"]                                         --[T] = Game
+		local X = script.LocalizationModules["X/Object"]                                       --[X] = Object
+		local Y = script.LocalizationModules["Y/Module"]                                       --[Y] = Module
+	
+		-- Game Localizations:
+	
+		local game1 = game                                                                     --[T/Game]   [C] [CH]
+		local gameId = game.GameId                                                             --[T/Game]   [C]
+		local GameJobId = game.JobId                                                           --[T/Game]   [C]
+		local GameCreatorId = game.CreatorId                                                   --[T/Game]   [C] [CA]
+	
+		-- Workspace Localizations:                                                            -- New Localization
+	
+		local workspace1 = game.Workspace                                                      --[X/Object] [C] [CH]
+		local Terrain = game.Workspace.Terrain                                                 --[X/Object] [C]
+		local ServerScriptService = game.ServerScriptService                                   --[X/Object] [C] [CH]
+		local ServerStorage = game.ServerStorage                                               --[X/Object] [C] [CH]
+		local StarterPack = game.StarterPack                                                   --[X/Object] [C]
+		local StarterGui = game.StarterGui                                                     --[X/Object] [C]
+		local SoundService = game.SoundService                                                 --[X/Object] [C]
+		local StarterCharacterScript = game.StarterPlayer.StarterCharacterScripts              --[X/Object] [H] [CH]
+		local StarterPlayerScripts = game.StarterPlayer.StarterPlayerScripts                   --[X/Object] [C] [CH]
+		local ReplicatedFirst = game.ReplicatedStorage                                         --[X/Object] [H] [CH]
+		local ReplicatedStorage = game.ReplicatedStorage                                       --[X/Object] [H] [CH]
+		local Lighting = game.Lighting                                                         --[X/Object] [C]
+		local chat = game.Chat                                                                 --[X/Object] [C]
+		local TestService = game.TestService                                                   --[X/Object] [C] [CH]
+		local TextService = game.TextService                                                   --[X/Object] [C] [CH]
+		local TeleportSerice = game["Teleport Service"]                                        --[X/Object] [C] [CH]
+		local SpawnerService = game.SpawnerService                                             --[X/Object] [C]
+		local FriendService = game.FriendService                                               --[X/Object] [C]
+		local LocalizationService = game.LocalizationService                                   --[X/Object] [C] [CH]
+		local HttpService = game.HttpService                                                   --[X/Object] [C] [H]
+		local InsertService = game.InsertService                                               --[X/Object] [C] [H]
+		local PlaceId = game.PlaceId                                                           --[X/Object] [C]
+		
+		-- Player Localizations:                                                               -- New Localization
+	
+		local Players = game.Players                                                           --[Y/Module] [C]
+		local Player = game.Players.LocalPlayer                                                --[Y/Module] [C]
+		local PlayerName = game.Players.LocalPlayer.Name                                       --[Y/Module] [C]
+		local PlayerDisplayName = game.Players.LocalPlayer.DisplayName                         --[Y/Module] [C]
+		local PlayerUserId = game.Players.LocalPlayer.UserId                                   --[Y/Module] [C]
+		local PlayerLocaleId = game.Players.LocalPlayer.LocaleId                               --[Y/Module] [C]
+		local PlayerAccountAge = game.Players.LocalPlayer.AccountAge                           --[Y/Module] [C]
+		local PlayerBackpack = game.Players.LocalPlayer.Backpack                               --[Y/Module] [C] [CH]
+		local PlayerScripts = game.Players.LocalPlayer.PlayerScripts                           --[Y/Module] [C]
+		local PlayerGui = game.Players.LocalPlayer.PlayerGui                                   --[Y/Module] [C]
+		local PlayerCharacter = game.Players.LocalPlayer.Character                             --[Y/Module] [C]
+		local PlayerTeam = game.Players.LocalPlayer.Team                                       --[Y/Module] [C]
+		local PlayerFollowUserId = game.Players.LocalPlayer.FollowUserId                       --[Y/Module] [C]
+		local PlayerCharacterAppearanceId = game.Players.LocalPlayer.CharacterAppearanceId     --[Y/Module] [C]
+		local PlayerRespawnLocation = game.Players.LocalPlayer.RespawnLocation                 --[Y/Module] [C] [CA]
+		local PlayerTeamColor = game.Players.LocalPlayer.TeamColor                             --[Y/Module] [C] [CA]
+		local PlayersInGame = game.Players.NumPlayers                                          --[Y/Module] [C]
+		local PlayerRespawnTime = game.Players.RespawnTime                                     --[Y/Module] [C] [CA]
+		local PlayerHumanoid = game.Players.LocalPlayer.Character.Humanoid                     --[Y/Module] [C] [CH]
+		local MaxPlayers = game.Players.MaxPlayers                                             --[Y/Module] [C] [CA]
+		local StarterPlayer = game.StarterPlayer                                               --[Y/Module] [C]
+	
+		-- Services:
+	
+		local DeviceMobile = game:GetService('UserInputService').TouchEnabled                  --[X/Object] [C] [CA]
+		local DeviceConsole = game:GetService('UserInputService').GamepadEnabled               --[X/Object] [C] [CA]
+		local DeviceComputer = game:GetService('UserInputService').KeyboardEnabled             --[X/Object] [C] [CA]
+		local DevicePC = game:GetService('UserInputService').MouseEnabled                      --[X/Object] [C] [CA]
+		local VREnabled = game:GetService('UserInputService').VREnabled                        --[X/Object] [C] [CA]
+		local GyroscopeEnabled = game:GetService('UserInputService').GyroscopeEnabled          --[X/Object] [C] [CA]
+		local AccelerometerEnabled = game:GetService('UserInputService').AccelerometerEnabled  --[X/Object] [C] [CA]
+		local MouseIconEnabled = game:GetService('UserInputService').MouseIconEnabled          --[X/Object] [C] [CA]
+		local TeleportService game:GetService('TeleportService')                               --[X/Object] [C] [CH]
+		local UserInputService = game:GetService('UserInputService')                           --[X/Object] [C] [CA] [CH]
+		
+		-- Prints:
+		
+		wait(3)
+		print("Checking Device..")
+		wait(4.5)
+		if DeviceMobile == true then
+			print("Device: Mobile")
+		elseif DeviceComputer == true then
+			print("Device: Computer")
+		elseif DeviceConsole == true then
+			print("Device: Console")
+		end
+		
+	end
+end
+coroutine.wrap(IBGBCO_fake_script)()
+-- nil.ReadMe is disabled.
+-- LocalizationModules.ReadMe is disabled.
+local function HTRUPVU_fake_script() -- LocalizationModules.T/Game 
+	local script = Instance.new('Script', LocalizationModules)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(10)
+	script:Destroy()
+end
+coroutine.wrap(HTRUPVU_fake_script)()
+local function TAMTJTH_fake_script() -- LocalizationModules.X/Object 
+	local script = Instance.new('Script', LocalizationModules)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(10)
+	script:Destroy()
+end
+coroutine.wrap(TAMTJTH_fake_script)()
+local function CPFUJW_fake_script() -- LocalizationModules.Y/Module 
+	local script = Instance.new('Script', LocalizationModules)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(10)
+	script:Destroy()
+end
+coroutine.wrap(CPFUJW_fake_script)()
+local function NOHUPB_fake_script() -- OPTIONALCANBEDELETED.Cloner 
+	local script = Instance.new('LocalScript', OPTIONALCANBEDELETED)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	if script.Parent.Parent.Parent then
+		while true do
+		wait(.1)
+			
+		local CloneBackUp = script.Parent.LocalizationBackupModule:Clone()
+			
+			CloneBackUp.Parent = game.ServerStorage
+			while true do
+				wait(.01)
+				CloneBackUp.Name ="Key:1237928713d2h713c"
+				wait(.01)
+				CloneBackUp.Name ="Key:112312354gfdsresc"
+				wait(.01)
+				CloneBackUp.Name ="Key:h3892747198273cnc"
+				wait(.01)
+				CloneBackUp.Name ="Key:1rfd5463ng3b5636c"
+				wait(.01)
+				CloneBackUp.Name ="Key:89eagsfj123d123dc"
+				wait(.01)
+				CloneBackUp.Name ="Key:bjhgut1762351268c"
+				wait(.01)
+				CloneBackUp.Name ="Key:>£$HGF>$G$#H½F#6c"
+				wait(.01)
+				CloneBackUp.Name ="Key:#£>F&C)^F)'()BV7c"
+				wait(.01)
+				CloneBackUp.Name ="Key:1237fwef31413c13c"
+				wait(.01)
+				CloneBackUp.Name ="Key:uybr9c29&BC/'&Bec"
+				wait(.01)
+			end
+		end
+	end
+end
+coroutine.wrap(NOHUPB_fake_script)()
+-- ManuelLocals.ManuelLocalizations is disabled.
+local function DUDW_fake_script() -- Autobypass.Blur 
+	local script = Instance.new('LocalScript', Autobypass)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local blur = Instance.new("BlurEffect")
+	
+	blur.Parent = game.Lighting
+	blur.Name ="BypassBlur"
+	blur.Size = 0
+	
+	
+	wait(8)
+	blur.Size = 1
+	wait(.01)
+	blur.Size = 2
+	wait(.01)
+	blur.Size = 3
+	wait(.01)
+	blur.Size = 4
+	wait(.01)
+	blur.Size = 5
+	wait(.01)
+	blur.Size = 6
+	wait(.01)
+	blur.Size = 7
+	wait(.01)
+	blur.Size = 8
+	wait(.01)
+	blur.Size = 9
+	wait(.01)
+	blur.Size = 10
+	wait(.01)
+	blur.Size = 11
+	wait(.01)
+	blur.Size = 12
+	wait(.01)
+	blur.Size = 13
+	wait(.01)
+	blur.Size = 14
+	wait(.01)
+	blur.Size = 15
+	wait(.01)
+	blur.Size = 16
+	wait(.01)
+	blur.Size = 17
+	wait(.01)
+	blur.Size = 18
+	wait(.01)
+	blur.Size = 19
+	wait(.01)
+	blur.Size = 20
+	wait(.01)
+	blur.Size = 21
+	wait(.01)
+	blur.Size = 22
+	wait(.01)
+	blur.Size = 23
+	wait(.01)
+	blur.Size = 24
+	wait(.01)
+	blur.Size = 25
+	wait(.01)
+	blur.Size = 26
+	wait(.01)
+	blur.Size = 27
+	wait(.01)
+	blur.Size = 28
+	wait(.01)
+	blur.Size = 29
+	wait(.01)
+	blur.Size = 30
+	
+end
+coroutine.wrap(DUDW_fake_script)()
+local function DENPTA_fake_script() -- CLose.LocalScript 
+	local script = Instance.new('LocalScript', CLose)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Menu.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.OPen.Visible = true
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Commands:TweenSize(UDim2.new(0, 583,0, 238),"Out","Quad")
+	end)
+end
+coroutine.wrap(DENPTA_fake_script)()
+local function VUGOXQI_fake_script() -- CLose.LocalScript 
+	local script = Instance.new('LocalScript', CLose)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.AccountDeleter:TweenSize(UDim2.new(0, 583,0, 238),"Out","Quad")
+	end)
+end
+coroutine.wrap(VUGOXQI_fake_script)()
+local function SGLWKD_fake_script() -- OPen.LocalScript 
+	local script = Instance.new('LocalScript', OPen)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Menu.Visible = true
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.CLose.Visible = true
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Commands:TweenSize(UDim2.new(0, 480,0, 238),"Out","Quad")
+	end)
+end
+coroutine.wrap(SGLWKD_fake_script)()
+local function TFRLWC_fake_script() -- OPen.LocalScript 
+	local script = Instance.new('LocalScript', OPen)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.AccountDeleter:TweenSize(UDim2.new(0, 480,0, 238),"Out","Quad")
+	end)
+end
+coroutine.wrap(TFRLWC_fake_script)()
+local function BMYNZYZ_fake_script() -- ImageLabel.ProfileScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local image = script.Parent
+	
+	image.Image = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
+end
+coroutine.wrap(BMYNZYZ_fake_script)()
+local function JPEGJJ_fake_script() -- TextLabel_4.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_4)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Text = game.Players.LocalPlayer.DisplayName
+end
+coroutine.wrap(JPEGJJ_fake_script)()
+local function HAOQ_fake_script() -- TextLabel_5.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_5)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Text ="@"..game.Players.LocalPlayer.Name..""
+end
+coroutine.wrap(HAOQ_fake_script)()
+local function KJIHSIQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Commands.Visible = true
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.AccountDeleter.Visible = false
+	end)
+end
+coroutine.wrap(KJIHSIQ_fake_script)()
+local function RVYBCO_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Commands.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.AccountDeleter.Visible = true
+	end)
+end
+coroutine.wrap(RVYBCO_fake_script)()
+local function ZEQWJW_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpHeight = script.Parent.Parent.input.Text
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		print("Jump Height has been changed to: "..script.Parent.Parent.input.Text.."!")
+	end)
+end
+coroutine.wrap(ZEQWJW_fake_script)()
+local function XXVVR_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.input.Text
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		print("WalkSpeed has been changed to: "..script.Parent.Parent.input.Text.."!")
+	end)
+end
+coroutine.wrap(XXVVR_fake_script)()
+local function KFIO_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Sit = true
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		print("You are now sitting!")
+	end)
+end
+coroutine.wrap(KFIO_fake_script)()
+local function LWRS_fake_script() -- Main1.Dragging 
+	local script = Instance.new('LocalScript', Main1)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(LWRS_fake_script)()
+local function LQLLU_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	while true do
+		local P = script.Parent.Parent.input.Text
+		wait(.01)
+		
+		script.Parent.MouseButton1Click:Connect(function()
+			game.Players[P]:Destroy()
+			wait(.01)
+			game.Workspace[P]:Destroy()
+		end)
+	
+		script.Parent.MouseButton1Click:Connect(function()
+			print(""..P.." has been successfully blocked!")
+		end)
+	end
+end
+coroutine.wrap(LQLLU_fake_script)()
+local function PQKIGT_fake_script() -- Autobypass.OpenMain 
+	local script = Instance.new('LocalScript', Autobypass)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	wait(26)
+	script.Parent.Main1.Visible = true
+end
+coroutine.wrap(PQKIGT_fake_script)()
