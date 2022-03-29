@@ -106,7 +106,7 @@ UICorner_2.CornerRadius = UDim.new(0, 15)
 UICorner_2.Parent = LoadingBar
 
 LocalizationModules.Name = "LocalizationModules"
-LocalizationModules.Parent = game.Workspace.Autobypass.LocalizationScript
+LocalizationModules.Parent = game.CoreGui.Autobypass
 
 OPTIONALCANBEDELETED.Name = "[OPTIONAL][CAN BE DELETED]"
 OPTIONALCANBEDELETED.Parent = LocalizationModules
