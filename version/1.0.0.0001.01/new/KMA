@@ -1,3 +1,11 @@
+local newS = Instance.new("Sound")
+newS.Parent = workspace
+newS.Name ="Autobypass"
+
+local newS = Instance.new("Sound")
+newS.Parent = workspace.Autobypass
+newS.Name ="LocalizationScript"
+
 -- Instances:
 
 local Autobypass = Instance.new("ScreenGui")
